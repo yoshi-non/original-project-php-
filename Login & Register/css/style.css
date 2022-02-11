@@ -1,0 +1,116 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    padding-bottom: 80px;
+}
+
+.container .content {
+    width: 700px;
+    text-align: center;
+}
+
+.container .content h3 {
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.container .content p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.container .content p span {
+    color: crimson;
+}
+
+.container .content .logout {
+    display: inline-block;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+.container .content .logout:hover {
+    background-color: crimson;
+}
+
+
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    padding-bottom: 80px;
+}
+
+.form-container form {
+    text-align: center;
+    width: 500px;
+    background: white;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.form-container form h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form-container form .box {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+
+.form-container form .form-btn {
+    display: block;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-container form .form-btn:hover {
+    background-color: crimson;
+}
+
+.form-container form p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.form-container form p a {
+    color: crimson;
+}
+
+.form-container form .error-msg {
+    display: block;
+    margin: 10px 0;
+    background-color: crimson;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
