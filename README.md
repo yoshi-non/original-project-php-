@@ -2,10 +2,19 @@
 
 データベースの型はそれぞれのファイルのdb_imgというフォルダに入っています。
 
+### Img_upload
+
+内容: 画像アップロード - 削除
+
+使用技術: HTML - PHP - MySQL
+
+参考資料: src(https://codeforfun.jp/php/%e7%94%bb%e5%83%8f%e9%96%a2%e9%80%a3/)
+
+
 ### Login & Register
 
 内容: 新規登録 - ログイン - ログアウト機能
 
 使用技術: HTML - CSS - PHP - MySQL
 
-参考資料:src(https://www.youtube.com/watch?v=bDKpQ35VpAQ)
+参考資料: src(https://www.youtube.com/watch?v=bDKpQ35VpAQ)
