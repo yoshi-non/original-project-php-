@@ -1,6 +1,6 @@
 ## phpで作成したものを公開しています。
 
-データベースの型はそれぞれのファイルのdb_imgというフォルダに入っています。
+データベースの型はそれぞれのファイルのdb_imgというフォルダもしくはbackup_sqlに入っています。
 
 ### Img_upload
 
@@ -18,3 +18,12 @@
 使用技術: HTML - CSS - PHP - MySQL
 
 参考資料: src(https://www.youtube.com/watch?v=bDKpQ35VpAQ)
+
+
+### Shopping_cart
+
+内容: 商品登録 - 商品表示 - 商品削除・編集 - 商品購入
+
+使用技術: HTML - CSS - PHP - MySQL
+
+参考資料: src(https://www.youtube.com/watch?v=z2UIfZkV51o&t=196s)
